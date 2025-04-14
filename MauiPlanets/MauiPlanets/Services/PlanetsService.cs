@@ -159,16 +159,77 @@ namespace Services
             new()
             {
                 Name = "Ceres",
-                Subtitle = "",
+                Subtitle = "The Icy Enigma of the Asteroid Belt",
                 HeroImage = "ceres.png",
-                Description = "",
-                AccentColorStart = Color.FromArgb("#353535"),
-                AccentColorEnd = Color.FromArgb("#8d9098"),
+                Description = "Ceres is the largest object in the asteroid belt between Mars and Jupiter and the only dwarf planet located in the inner solar system. Discovered in 1801, it was once classified as a planet and later an asteroid, before earning its current status as a dwarf planet in 2006. With its mysterious bright spots, water ice, and possible briny underground ocean, Ceres continues to intrigue scientists as a potential key to understanding planetary formation and the possibility of life beyond Earth",
+                AccentColorStart = Color.FromArgb("#a9d1c1"),
+                AccentColorEnd = Color.FromArgb("#1b7551"),
                 Images = new()
                 {
-                    "https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg/640px-Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg",
+                    "https://cdn.mos.cms.futurecdn.net/qnft8kRfeGWWLgaygo4fb9.jpg",
+                    "https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUZsIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ca667488ed16597e35eaab71acd42034ca4f56c2/PIA20180-16-640x350.jpg"
+                }
+            },
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "The Spinning Mystery of the Outer Solar System",
+                HeroImage = "haumea.png",
+                Description = "Haumea is a fast-spinning, football-shaped dwarf planet located in the Kuiper Belt beyond Neptune. Named after the Hawaiian goddess of childbirth, Haumea stands out with its rapid 4-hour rotation, elongated shape, and unique ring system — the first discovered around a trans-Neptunian object. With two known moons and a surface covered in crystalline ice, Haumea challenges our understanding of how distant icy worlds form and evolve.",
+                AccentColorStart = Color.FromArgb("#ad8f71"),
+                AccentColorEnd = Color.FromArgb("#5e4022"),
+                Images = new()
+                {
+                     "https://science.nasa.gov/wp-content/uploads/2023/07/haumea-480x320-1-jpg.webp?w=320",
+                    "https://c02.purpledshub.com/uploads/sites/48/2024/01/dwarf-planet-haumea.jpg?w=1029&webp=1",
+                    "https://www.solarsystemscope.com/spacepedia/images/handbook/renders/haumea.png"
+                }
+            },
+            new()
+            {
+                Name = "Makemake",
+                Subtitle = "The Silent Watcher of the Kuiper Belt",
+                HeroImage = "makemake.png",
+                Description = "Makemake is a distant dwarf planet nestled in the icy reaches of the Kuiper Belt. Discovered in 2005 and named after the Rapa Nui god of creation, Makemake is a cold, reddish world with a methane-rich surface and a mysterious, near-invisible atmosphere. Once thought to be moonless, it surprised astronomers with the discovery of a hidden satellite in 2016. As one of the brightest objects beyond Neptune, Makemake offers a glimpse into the frozen frontier of our solar system.\r\n\r\n",
+                AccentColorStart = Color.FromArgb("#e87400"),
+                AccentColorEnd = Color.FromArgb("#cfbeae"),
+                Images = new()
+                {
+                    "https://cdn.eso.org/images/screen/eso1246a.jpg",
+                    "https://science.nasa.gov/wp-content/uploads/2023/04/makemakemoon100mile-jpg.webp?w=2000",
+                    "https://cdn.mos.cms.futurecdn.net/8QBGiy9BhmttKdGeAAZpn8.jpg"
+                }
+            },
+            new()
+            {
+                Name = "Pluto",
+                Subtitle = "The Beloved Outcast of the Solar System",
+                HeroImage = "pluto.png",
+                Description = "Once the ninth planet in our solar system, Pluto was reclassified as a dwarf planet in 2006 — but it remains a celestial icon. Located in the Kuiper Belt, Pluto is a complex world with towering ice mountains, vast nitrogen plains, and a thin, hazy atmosphere. The 2015 New Horizons flyby revealed a surprisingly active surface, hinting at a geologically dynamic history. With its heart-shaped glacier and five moons — including the massive Charon — Pluto continues to captivate hearts and challenge our cosmic definitions.\r\n\r\n",
+                AccentColorStart = Color.FromArgb("#edb361"),
+                AccentColorEnd = Color.FromArgb("#875610"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/1200px-Pluto_in_True_Color_-_High-Res.jpg",
+                    "https://www.iau.org/static/archives/images/screen/iau0601a.jpg",
+                    "https://i.natgeofe.com/n/b103fff5-6a84-4d19-b65e-5856998816c3/PIA19952_2x3.jpg"
+                }
+            },
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "The Ice Queen That Redefined Planets",
+                HeroImage = "eris.png",
+                Description = "Eris is one of the most massive known dwarf planets, orbiting far beyond Pluto in the scattered disc region of the solar system. Discovered in 2005, its size and weight rivaled Pluto’s — sparking the debate that led to the redefinition of what it means to be a planet. Icy, remote, and highly reflective, Eris has a frigid surface and a small moon named Dysnomia. With an orbit that takes over 500 years to complete, Eris remains a powerful reminder of how much we’re still learning about the farthest reaches of our solar system.\r\n\r\n",
+                AccentColorStart = Color.FromArgb("#75ebdd"),
+                AccentColorEnd = Color.FromArgb("#13544c"),
+                Images = new()
+                {
+
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG6gj2_jvLR_vafhxvRxJMZvvR3EEo1a6Ufg&s",
+                    "https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUFSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1f24a5d7e143ef1d68416edb76a51ec065c1019c/eris_th.jpg?disposition=inline",
+                    "https://theplanets.org/123/2021/10/Eris-Facts.png"
                 }
             },
         };
